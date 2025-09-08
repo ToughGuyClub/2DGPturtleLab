@@ -1,0 +1,53 @@
+import turtle
+
+# turtle.penup()
+# turtle.goto(200,200)
+# turtle.pendown()
+# turtle.circle(50)
+# turtle.write("(200, 200)")
+#
+# turtle.penup()
+# turtle.goto(200,-200)
+# turtle.pendown()
+# turtle.circle(30)
+# turtle.write("(200, -200)")
+#
+# turtle.penup()
+# turtle.home()
+# turtle.pendown()
+# turtle.circle(50)
+# turtle.write("Home")
+turtle.penup()
+turtle.goto(-200,0)
+turtle.pendown()
+turtle.circle(100,-180)
+turtle.penup()
+turtle.goto(-200,0)
+turtle.pendown()
+turtle.circle(100,-180)
+turtle.penup()
+
+turtle.goto(0,0)
+turtle.pendown()
+turtle.right(90)
+turtle.circle(100,-180)
+turtle.penup()
+turtle.goto(200,0)
+turtle.pendown()
+turtle.right(-90)
+turtle.forward(200)
+turtle.left(90)
+turtle.circle(100,90)
+turtle.penup()
+
+
+turtle.goto(400,100)
+turtle.pendown()
+turtle.goto(300,-100)
+turtle.penup()
+turtle.goto(300,100)
+turtle.pendown()
+turtle.goto(400,-100)
+
+
+turtle.exitonclick()
